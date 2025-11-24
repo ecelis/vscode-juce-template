@@ -1,0 +1,18 @@
+{
+  // Path to the JUCE framework
+  "juce.juce_path": "/path/to/JUCE",
+
+  // The name of your project's executable
+  "juce.project_name": "my-plugin",
+
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": [],
+  "makefile.configurations": [
+    {
+      "name": "Default",
+      "makeArgs": ["-C", "Builds/LinuxMakefile", "all", "-j", "6"]
+    }
+  ],
+  "makefile.makefilePath": "Builds/LinuxMakefile"
+}

@@ -14,5 +14,7 @@
       "makeArgs": ["-C", "Builds/LinuxMakefile", "all", "-j", "6"]
     }
   ],
-  "makefile.makefilePath": "Builds/LinuxMakefile"
+  "makefile.makefilePath": "Builds/LinuxMakefile",
+  "spellright.language": ["en-US-10-1."],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext"]
 }
